@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mission List</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="listarTarefas()">
+    <h1>My Mission List</h1>
+    <div>
+        <input type="text" id="novaTarefa" placeholder="Digite uma nova tarefa">
+        <button onclick="adicionarTarefa()">Adicionar</button>
+        <button onclick="LimparLista()">Limpar</button>
+    </div>
+    <ul id="listaTarefas">
+    </ul>
+</body>
+</html>
